@@ -3,12 +3,18 @@ Multi-cloud Terraform project that auto-deploys Nginx web servers on AWS EC2 and
 
 multi-cloud-terraform-auto-deploy
 ├── README.md
+
 ├── main.tf
+
 ├── variables.tf
+
 ├── terraform.tfvars
+
 ├── health_check.sh
+
 ├── aws/
 │   └── ec2.tf
+
 └── gcp/
     └── compute.tf
 
